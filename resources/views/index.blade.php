@@ -68,33 +68,31 @@
     <!--  Features -->
     <section class="section_sapce">
         <div class="row">
-            <div class="container">
                 <div class="section-title margin-b30">
                     <h2><span>Welcome to TheHosting</span> Why Choose TheHosting ?</h2>
                 </div>
-            </div>
         </div>
         <div class="row">
             <div class="container">
                 <div class="col-lg-4 margin-t30">
                     <div class="text-center">
                         <i class="fa fa-percent fa-3x text_primary square-border-icon"></i>
-                        <h3>Discount Guarantee!</h3>
-                         <p>Vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+                        <h3>Interactive Engagement Training</h3>
+                         <p>We create an environment for participants to challenge, question, learn and grow through engaging interactive courses.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 margin-t30">
                     <div class="text-center">
                         <i class="fa fa-phone fa-3x text_primary square-border-icon"></i>
-                        <h3>24/7 Technical Support</h3>
-                         <p>Vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+                        <h3>Wide Range of Training Subjects</h3>
+                         <p>We have an unrivalled selection of courses from leadership, management and business, into more specialist and technical areas of expertise.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 margin-t30">
                     <div class="text-center">
                         <i class="fa fa-check fa-3x text_primary square-border-icon"></i>
-                        <h3>Best Pricing</h3>
-                         <p>Vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+                        <h3>Internationaly Certified Instructors</h3>
+                         <p>We have one of the largest and most extensive portfolio of highly qualified, experienced experts, chosen as being the best in their professional field.</p>
                     </div>
                 </div>
             </div>
@@ -102,219 +100,7 @@
     </section>
     <!-- End of Features -->
 
-    <!--  Pricing Tables -->
-    <section class="pricingtables section_sapce section_gray">
-        <div class="row">
-            <div class="container">
-                <div class="section-title  margin-b50">
-                    <h2><span>Pricing</span>Best Popular TheHosting Plans</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row no-gutter">
-            <div class="container">
-                <div class="col-sm-6 col-md-3 margin-top-30">
-                    <div class="panel panel-info">
-                        <div class="panel-heading">
-                            <h3 class="text-center">Shared Hosting</h3>
-                        </div>
-                        <div class="panel-body text-center">
-                            <div class="price-cercle">
-                              <h4>$15</h4>
-                                <span class="per">PER MONTH</span>
-                            </div>
-                      </div>
-                        <ul class="text-center">
-                            <li>Free DNS Management</li>
-                            <li>Unlimited Server Space</li>
-                            <li>24/7 support</li>
-                            <li>Free DNS Management</li>
-                            <li>Unlimited Server Space</li>
-                            <li>24/7 support</li>
-                        </ul>
-                        <div class="panel-footer">
-                             <!--  Various Pricing Dropdown Toggle -->
-                              <div class="btn-group btn-block margin-bottom-15">
-                                 <button type="button" class="btn btn-lg btn-default dropdown-toggle text-right" data-toggle="dropdown">1 Mo <b class="text_primary">@ $345 /mo</b> <span class="caret"></span>
-                                 </button>
-                                 <ul class="dropdown-menu btn-block" role="menu">
-                                    <li><a href="#">3 Years @ $6000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">2 Years @ $4000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">1 Year @ $2000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">6 Months @ $1000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">3 Months @ $700 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">1 Month @ $323 <b class="text_primary"></b></a></li>
-                                 </ul>
-                              </div>
-                              <!--  End Various Pricing Dropdown Toggle -->
-                            <a class="btn btn-lg btn-pricetable" href="#">COMPARE PLANS</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 margin-top-30">
-                    <div class="panel panel-info relative">
-                        <div class="ribbon ribbon-small text-white">
-                            <div class="ribbon-content bg_yellow text-uppercase ">50% OFFER</div>
-                        </div>
-                        <div class="panel-heading">
-                            <h3 class="text-center">Reseller Hosting</h3>
-                        </div>
-                        <div class="panel-body text-center">
-                            <div class="price-cercle">
-                                <h6 class="through-line common-price ">$150</h6>
-                                <h4>$26</h4>
-                                <span class="per">STARTING / Mo</span>
-                            </div>
-                        </div>
-                        <ul class="text-center">
-                            <li>Free DNS Management</li>
-                            <li>Unlimited Server Space</li>
-                            <li>24/7 support</li>
-                            <li>Free DNS Management</li>
-                            <li>Unlimited Server Space</li>
-                            <li>24/7 support</li>
-                        </ul>
-                        <div class="panel-footer">
-                          <!--  Various Pricing Dropdown Toggle -->
-                          <div class="btn-group btn-block margin-bottom-15">
-                             <button type="button" class="btn btn-lg btn-default dropdown-toggle text-right" data-toggle="dropdown">1 Mo <b class="text_primary">@ $345 /mo</b> <span class="caret"></span>
-                             </button>
-                             <ul class="dropdown-menu btn-block" role="menu">
-                                <li><a href="#">3 Years @ $6000 <b class="text_primary"></b></a></li>
-                                <li><a href="#">2 Years @ $4000 <b class="text_primary"></b></a></li>
-                                <li><a href="#">1 Year @ $2000 <b class="text_primary"></b></a></li>
-                                <li><a href="#">6 Months @ $1000 <b class="text_primary"></b></a></li>
-                                <li><a href="#">3 Months @ $700 <b class="text_primary"></b></a></li>
-                                <li><a href="#">1 Month @ $323 <b class="text_primary"></b></a></li>
-                             </ul>
-                          </div>
-                          <!--  End Various Pricing Dropdown Toggle -->
-
-                          <a class="btn btn-new btn-lg" href="#">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 margin-top-30 most-popular">
-                    <div class="panel panel-info relative">
-                        <div class="ribbon ribbon-small text-white">
-                            <div class="ribbon-content bg_primary text-uppercase text_white">Popular</div>
-                        </div>
-                        <div class="panel-heading">
-                            <h3 class="text-center">Cloud VPS</h3>
-                        </div>
-                        <div class="panel-body text-center">
-                            <div class="price-cercle">
-                              <h4>$42</h4>
-                                <span class="per">PER MONTH</span>
-                            </div>
-                      </div>
-                        <ul class="text-center">
-                            <li>Free DNS Management</li>
-                            <li>Unlimited Server Space</li>
-                            <li>24/7 support</li>
-                            <li>Free DNS Management</li>
-                            <li>Unlimited Server Space</li>
-                            <li>24/7 support</li>
-                        </ul>
-                        <div class="panel-footer">
-
-                          <!--  Various Pricing Dropdown Toggle -->
-                              <div class="btn-group btn-block margin-bottom-15">
-                                 <button type="button" class="btn btn-lg btn-default dropdown-toggle text-right" data-toggle="dropdown">1 Mo <b class="text_primary">@ $345 /mo</b> <span class="caret"></span>
-                                 </button>
-                                 <ul class="dropdown-menu btn-block" role="menu">
-                                    <li><a href="#">3 Years @ $6000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">2 Years @ $4000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">1 Year @ $2000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">6 Months @ $1000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">3 Months @ $700 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">1 Month @ $323 <b class="text_primary"></b></a></li>
-                                 </ul>
-                              </div>
-                          <!--  End Various Pricing Dropdown Toggle -->
-
-                          <a class="btn btn-lg btn-pricetable" href="#">LEARN MORE</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 margin-top-30">
-                    <div class="panel panel-info">
-                        <div class="panel-heading">
-                            <h3 class="text-center">Dedicated Servers</h3>
-                        </div>
-                        <div class="panel-body text-center">
-                            <div class="price-cercle">
-                              <h4>$142</h4>
-                                <span class="per">PER MONTH</span>
-                            </div>
-                      </div>
-                        <ul class="text-center">
-                            <li>Free DNS Management</li>
-                            <li>Unlimited Server Space</li>
-                            <li>24/7 support</li>
-                            <li>Free DNS Management</li>
-                            <li>Unlimited Server Space</li>
-                            <li>24/7 support</li>
-                        </ul>
-                        <div class="panel-footer">
-                          <!--  Various Pricing Dropdown Toggle -->
-                              <div class="btn-group btn-block margin-bottom-15">
-                                 <button type="button" class="btn btn-lg btn-default dropdown-toggle text-right" data-toggle="dropdown">1 Mo <b class="text_primary">@ $345 /mo</b> <span class="caret"></span>
-                                 </button>
-                                 <ul class="dropdown-menu btn-block" role="menu">
-                                    <li><a href="#">3 Years @ $6000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">2 Years @ $4000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">1 Year @ $2000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">6 Months @ $1000 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">3 Months @ $700 <b class="text_primary"></b></a></li>
-                                    <li><a href="#">1 Month @ $323 <b class="text_primary"></b></a></li>
-                                 </ul>
-                              </div>
-                            <!--  End Various Pricing Dropdown Toggle -->
-                            <a class="btn btn-new btn-lg" href="#">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Pricing Tables -->
-
-
-
-
-    <!--  Subscribe -->
-    <section class="subscribe section_sapce2 bg_dark cover-image" data-image-src="images/subbanners/2.jpg">
-        <div class="row">
-            <div class="container col-sm-12 col-xs-12 col-md-8 center-block text-center">
-                <div class="col-sm-12 margin-bottom-15">
-                    <h1>Newsletter</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing  industry.</p>
-                </div>
-                <div class="col-sm-12">
-                    <div id="mc_embed_signup">
-                        <form class="form-inline validate" action="//sreethemes.us9.list-manage.com/subscribe/post?u=f86de306ae229d9cca9373ff6&id=44e7c219bf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                            <div class="row no-gutter">
-                                <div class="col-sm-8 center-block margin-bottom-15">
-                                    <input type="email" value="" name="EMAIL" class="form-control text-center" id="mce-EMAIL" placeholder="Subscribe to our newsletter" required>
-                                    <div style="position: absolute; left: -5000px;">
-                                        <input type="text" name="b_f86de306ae229d9cca9373ff6_44e7c219bf" tabindex="-1" value="">
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 center-block">
-                                    <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--  End of Subscribe -->
-
-
-    <!-- Partners -->
+      <!-- Partners -->
     <section class="partners section_sapce3 bg_gray">
         <div class="row">
             <div class="container">
@@ -324,143 +110,12 @@
                         <div class="item"><img src="images/clients/2.png" alt=""> </div>
                         <div class="item"><img src="images/clients/3.png" alt=""> </div>
                         <div class="item"><img src="images/clients/4.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/5.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/6.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/7.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/8.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/9.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/1.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/2.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/3.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/4.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/5.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/6.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/7.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/8.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/9.png" alt=""> </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- End of Partners -->
-
-
-
-    <!--  Statistics -->
-    <section class="statistics section_sapce">
-        <div class="row">
-            <div class="container">
-                <div class="section-title">
-                    <h2><span>We Show</span> Stats </h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="container">
-                <div class="col-sm-6 col-md-3 margin-top-30">
-                    <div>
-                        <p id="myStat1" data-dimension="175" data-animationstep="0.5" data-text="3215" data-width="25" data-fontsize="29" data-percent="64" data-fgcolor="#1a1a1a" data-bgcolor="#ebebeb"></p> <span>Hosting Servers</span>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 margin-top-30">
-                    <div>
-                        <p id="myStat2" data-dimension="175" data-animationstep="0.5" data-text="4576" data-width="25" data-fontsize="29" data-percent="46" data-fgcolor="#1a1a1a" data-bgcolor="#ebebeb"></p> <span>All Customers</span>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 margin-top-30">
-                    <div>
-                        <p id="myStat3" data-dimension="175" data-animationstep="0.5" data-text="3246" data-width="25" data-fontsize="29" data-percent="38" data-fgcolor="#1a1a1a" data-bgcolor="#ebebeb"></p> <span>Total Employees</span>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 margin-top-30">
-                    <div>
-                        <p id="myStat4" data-dimension="175" data-animationstep="0.5" data-text="1564" data-width="25" data-fontsize="29" data-percent="55" data-fgcolor="#1a1a1a" data-bgcolor="#ebebeb"></p> <span>Happy Clients</span>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- End of Statistics -->
-
-    <!-- Testimonials -->
-    <section class="testimonials section_gray section_sapce">
-        <div class="row">
-            <div class="container">
-                <div class="col-sm-12">
-                    <div class="section-title  margin-b50">
-                        <h2><span>Client Thing</span>What Clients Saying</h2>
-                    </div>
-                    <div id="testimonials-carousel" class="owl-carousel">
-
-                        <div class="item">
-                            <div class="testimonial-content">
-                                <div class="testimonialimg"><img src="images/testimonial1.jpg" alt="" /> </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-                                <div class="whoclient">
-                                    <h5>Charlee Modena, Owner of <a href="">Coval Soft.</a></h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="testimonial-content">
-                                <div class="testimonialimg"><img src="images/testimonial2.jpg" alt="" /> </div>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
-                                <div class="whoclient">
-                                    <h5>Fathina, Manager of <a href="">Clikka O.F.C</a></h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="testimonial-content">
-                                <div class="testimonialimg"><img src="images/testimonial3.jpg" alt="" /> </div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
-                                <div class="whoclient">
-                                    <h5>Rabin, Chairman of <a href="">NAINA C.A.</a></h5>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Testimonials -->
-
-
-    <!--Service Icons -->
-    <section class="container section_sapce">
-        <div class="section-title  margin-b50">
-            <h2><span>We offer</span>What's our services</h2>
-        </div>
-        <div class="col-md-2 col-sm-4 col-xs-6 margin-top-30">
-            <div class="service-icon"> <i aria-hidden="true" class="fa fa-sitemap fa-5x text_primary square-border-icon center-block"></i> <span class="service-text">Shared Hosting</span> </div>
-        </div>
-        <div class="col-md-2 col-sm-4 col-xs-6 margin-top-30">
-            <div class="service-icon"> <i aria-hidden="true" class="fa fa-server fa-5x text_primary square-border-icon center-block"></i> <span class="service-text">VPS Hosting</span> </div>
-        </div>
-        <div class="col-md-2 col-sm-4 col-xs-6 margin-top-30">
-            <div class="service-icon"> <i aria-hidden="true" class="fa fa-desktop fa-5x text_primary square-border-icon center-block"></i> <span class="service-text">Dedicated Hosting</span> </div>
-        </div>
-        <div class="col-md-2 col-sm-4 col-xs-6 margin-top-30">
-            <div class="service-icon"> <i aria-hidden="true" class="fa fa-windows fa-5x text_primary square-border-icon center-block"></i> <span class="service-text">Windows Hosting</span> </div>
-        </div>
-        <div class="col-md-2 col-sm-4 col-xs-6 margin-top-30">
-            <div class="service-icon"> <i aria-hidden="true" class="fa fa-cloud fa-5x text_primary square-border-icon center-block"></i> <span class="service-text">Cloud Hosting</span> </div>
-        </div>
-        <div class="col-md-2 col-sm-4 col-xs-6 margin-top-30">
-            <div class="service-icon"> <i aria-hidden="true" class="fa fa-align-justify fa-5x text_primary square-border-icon center-block"></i> <span class="service-text">Reseller Hosting</span> </div>
-        </div>
-    </section>
-    <!--End of Service Icons -->
-
 
     <!--Extra Info -->
     <section class="section_sapce bg_gray">
@@ -486,7 +141,7 @@
                                     </i>
                                 </div>
                                 <div class="single_box_right">
-                                    <h3>Domain Theft Protection</h3> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </div>
+                                    <h3>Full Stack</h3> As a Full-Stack web developer, you will be an integral part of an organization’s business operations. From frontend to backend development you will work with JavaScript, HTML5, CSS3, Python, and everything in between. Due to their popularity in the developer workspace, JavaScript and Python will be the languages taught for the frontend and backend of the course.  </div>
                             </div>
                         </div>
                     </div>
@@ -500,21 +155,7 @@
                                      </i>
                                 </div>
                                 <div class="single_box_right">
-                                    <h3>Domain Forwarding</h3> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="margin-b30">
-                        <div class="col-sm-12">
-                            <div class="left_icons">
-                                <div class="single_box_left">
-                                    <i class="feature-icon">
-                                        <i class="fa fa-gears fa-2x text_primary"></i>
-                                    </i>
-                                </div>
-                                <div class="single_box_right">
-                                    <h3>DNS Management</h3> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </div>
+                                    <h3>Data Science</h3> Data Science has become a popular occupation with Harvard Business Review dubbing it “The Sexiest Job of the 21st Century” and McKinsey & Company projecting a global demand of 1.5 million new data scientists. This track teaches you the knowledge and skills necessary to conduct sophisticated and systematic data analysis using the industry’s most adopted programming paradigms, the R and Python languages. </div>
                             </div>
                         </div>
                     </div>
@@ -529,35 +170,23 @@
                                     </i>
                                 </div>
                                 <div class="single_box_right">
-                                    <h3>Free Domain Registration</h3> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </div>
+                                    <h3>Tailor Made Trainings</h3> Switzerland’s only tailor-made tech program for your employees. Create a custom program that advances your company’s skillset and helps your managers translate the tech jargon. </div>
                             </div>
                         </div>
                     </div>
+
+                    
 
                     <div class="margin-b30">
                         <div class="col-sm-12">
                             <div class="left_icons">
                                 <div class="single_box_left">
                                     <i class="feature-icon">
-                                        <i class="fa fa-envelope-open fa-2x text_primary"></i>
-                                     </i>
-                                </div>
-                                <div class="single_box_right">
-                                    <h3>Email Accounts</h3> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="margin-b30">
-                        <div class="col-sm-12">
-                            <div class="left_icons">
-                                <div class="single_box_left">
-                                    <i class="feature-icon">
-                                        <i class="fa fa-clock-o fa-2x text_primary"></i>
+                                        <i class="fa fa-gears fa-2x text_primary"></i>
                                     </i>
                                 </div>
                                 <div class="single_box_right">
-                                    <h3>99% Uptime</h3> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. </div>
+                                    <h3>Big Data</h3> Making good use of the immense volume of data enterprises generate is one of the key success drivers in both high-tech and traditional industries. Big Data Engineers are indispensable in designing, building, and maintaining the future hardware and software architectures needed for that. In this track you will learn the fundamental computer science concepts behind the most successful distributed framework for big data - Hadoop. You will also provision and configure your own Hadoop cluster in the cloud.  </div>
                             </div>
                         </div>
                     </div>
@@ -580,7 +209,7 @@
 
 
     <!--APPS Downloads -->
-    <section class="section_sapce bg_dark section-parallax parallax cover-image apps-download" data-image-src="images/parallax/04.jpg">
+    <section class="section_sapce bg_dark section-parallax parallax cover-image apps-download" data-image-src="{{ asset('images/image3.png') }}">
         <div class="container ">
             <div class="row">
                 <div class="section-title  margin-b50">
@@ -596,358 +225,8 @@
     </section>
     <!--End of APPS Downloads -->
 
-    <!-- Domain Price -->
-    <section class="domain-prices white section_sapce">
-        <div class="row">
-            <div class="container">
-                <div class="section-title margin-b50">
-                    <h2><span>Domain</span>Offer Price</h2>
-                </div>
-            </div>
-        </div>
-        <div class="domains-table">
-            <div class="row">
-                <div class="container">
-                    <div class="col-sm-12">
-                        <div class="prices row">
-                            <div class="col-sm-4 col-md-3">
-                                <div class="domain-p-container relative">
-                                    <div class="ribbon ribbon-small text-white">
-                                        <div class="ribbon-content bg_dark text-uppercase ">HURRY</div>
-                                    </div>
-                                    <h4 class="active">.COM</h4>
-                                  <p class="text_primary">FREE<span class="through-line">$12.25</span> <small class="text_danger" id="limited"></small> </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-3">
-                                <div class="domain-p-container">
-                                    <h4>.US</h4>
-                                  <p>$0.1 <span class="through-line">$12.50</span> <small>Ends 2017-07-31</small> </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-3">
-                                <div class="domain-p-container">
-                                    <h4>.BIZ</h4>
-                                  <p>$3.01 <span class="through-line">$15.80</span> <small>Ends 2017-07-31</small> </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-3">
-                                <div class="domain-p-container">
-                                    <h4>.IN</h4>
-                                  <p>$5.22 <span class="through-line">$10.16</span> <small>Ends 2017-07-31</small> </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-3">
-                                <div class="domain-p-container">
-                                    <h4>.ORG</h4>
-                                  <p>$2.39 <span class="through-line">$13.21</span> <small>Ends 2017-07-31</small> </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-3">
-                                <div class="domain-p-container">
-                                    <h4>.CO</h4>
-                                  <p>$8.22 <span class="through-line">$16.21</span> <small>Ends 2017-07-31</small> </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-3">
-                                <div class="domain-p-container">
-                                    <h4>.FASHION</h4>
-                                  <p>$8.22 <span class="through-line">$16.21</span> <small>Ends 2017-07-31</small> </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-3">
-                                <div class="domain-p-container">
-                                    <h4>.WEBSITE</h4>
-                                  <p>$8.22 <span class="through-line">$16.21</span> <small>Ends 2017-07-31</small> </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Domain Price -->
-
-
-    <!-- Shared Hosting Tabs -->
-    <section class="shared-features section_sapce section_gray">
-        <div class="section-title margin-b50">
-            <h2><span>Full Features</span>Shared Hosting Features</h2>
-        </div>
-        <div class="row">
-            <div class="container">
-                <div class="col-sm-12">
-                    <div id="shared-hosting-features-tabs">
-                        <ul>
-                            <li><a href="#feature1"> <i class="fa fa-globe" aria-hidden="true"></i> Web Presence </a></li>
-                            <li><a href="#feature2"><i class="fa fa-mouse-pointer" aria-hidden="true"></i>  just 1 click Install </a> </li>
-                            <li><a href="#feature3"><i class="fa fa-cog" aria-hidden="true"></i> Under the hood  </a> </li>
-                            <li><a href="#feature4"><i class="fa fa-question-circle" aria-hidden="true"></i> FAQ</a> </li>
-                        </ul>
-
-                        <!-- 1st tab  -->
-                        <div id="feature1">
-                            <div class="tabfeatures">
-                                <h2 class="margin-b50 margin-top-45 text-center">Just what you need for a Basic Web Presence</h2>
-                                <div class="row">
-                                    <div class="col-sm-4 margin-b30">
-                                        <div class="text-center padding30  main-feature relative">
-                                            <div class="ribbon ribbon-small text-white">
-                                                <div class="ribbon-content bg_yellow text-uppercase">Guarantee</div>
-                                            </div>
-                                            <i class="fa fa-rocket fa-3x text_primary square-border-icon"></i>
-                                            <h3>Lightning Fast Website</h3>
-                                            <p>The standard chunk of Lorem Ipsum used since the 1500s.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 margin-b30">
-                                        <div class="text-center padding30  main-feature">
-                                            <i class="fa fa-envelope-open fa-3x text_primary square-border-icon"></i>
-                                            <h3>Email included</h3>
-                                            <p>The standard chunk of Lorem Ipsum used since the 1500s.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 margin-b30">
-                                        <div class="text-center padding30  main-feature">
-                                            <i class="fa fa-gears fa-3x text_primary square-border-icon"></i>
-                                            <h3>cPanel for Management</h3>
-                                            <p>The standard chunk of Lorem Ipsum used since the 1500s.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 2nd tab  -->
-                        <div id="feature2">
-                            <div class="tabfeatures">
-                                <div class=" text-center margin-b30 margin-top-45">
-                                    <h4>50+ Plugins - Powered by Softaculous</h4>
-                                    <h2>Install a Shopping Cart, Photo Gallery, a Blog or any other module in just 1 click</h2></div>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="block-grid-sm-4 block-grid-xs-2 apps">
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/01.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/02.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/03.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/04.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/05.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/06.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/07.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/08.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/09.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/10.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/11.png" alt="" />
-                                            </div>
-                                            <div class="col-sm-6 col-md-3 col-xs-12 margin-t30">
-                                                <img src="images/apps/12.png" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 3rd tab  -->
-                        <div id="feature3">
-                            <div class="tabfeatures">
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class=" text-center margin-b50 margin-top-45">
-                                            <h2>Under the hood </h2>
-                                        </div>
-                                        <div class="col-sm-4 margin-b30">
-                                            <div class="text-center padding30  main-feature">
-                                                <i class="fa fa-server fa-3x text_primary square-border-icon"></i>
-                                                <div class="includes inline-block">
-                                                    <h3>State-of-the-Art Servers</h3>
-                                                    <ul class="list text-left">
-                                                        <li><span>Dual Intel Xeon Processor E5-2630</span></li>
-                                                        <li><span>64 GB RAM</span></li>
-                                                        <li><span>256 GB SSD in RAID 1</span></li>
-                                                        <li><span>Octa Core with 2.40 GHz</span></li>
-                                                        <li><span>2 TB SATA in RAID 1</span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4 margin-b30">
-                                            <div class="text-center padding30  main-feature">
-                                                <i class="fa fa-language fa-3x text_primary square-border-icon"></i>
-                                                <div class="includes inline-block">
-                                                    <h3>Any Language</h3>
-                                                    <ul class="list text-left">
-                                                        <li><span>PHP 5.2.x to 5.6.x, Perl, Python, RoR, GD, cURL, CGI, mcrypt</span></li>
-                                                        <li><span>Apache 2.2x</span></li>
-                                                        <li><span>MySQL 5</span></li>
-                                                        <li><span>Ruby On Rails</span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4 margin-b30">
-                                            <div class="text-center padding30  main-feature">
-                                                <i class="fa fa-shield fa-3x text_primary square-border-icon"></i>
-                                                <div class="includes inline-block">
-                                                    <h3>Top-Notch Security</h3>
-                                                    <ul class="list text-left">
-                                                        <li><span>Anti Spam &amp; Virus Protection</span></li>
-                                                        <li><span>Password Protect Directories</span></li>
-                                                        <li><span>Secure FTP Access</span></li>
-                                                        <li><span>IP Blocking</span></li>
-                                                        <li><span>phpMyAdmin Access</span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 4th tab  -->
-                        <div id="feature4">
-                            <div class="tabfeatures">
-                                <div class="row faq">
-                                    <div class="col-sm-12">
-                                        <div class=" text-center margin-b50 margin-top-45">
-                                            <h2>FAQ'S</h2>
-                                        </div>
-                                        <!-- FAQ -->
-                                        <div class="faq-questions margin-t50">
-                                            <div id="accordion" class="panel-group">
-
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is  Web hosting Server ?</a></h4> </div>
-                                                    <div id="collapse1" class="panel-collapse collapse in">
-                                                        <div class="panel-body">
-                                                            <p>Social nutrition carbon rights. Economic security inspire breakthroughs cross-cultural small-scale farmers John Lennon educate. Community health workers effectiveness Global South facilitate honor fairness invest citizenry. UNICEF medical capacity building achieve, metrics liberal rights-based approach visionary social innovation Jane Addams assistance life-expectancy. </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Can I host multiple Web sites within one Hosting plan?</a></h4> </div>
-                                                    <div id="collapse2" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                            <p>FRaise awareness maintain; peace social worker; tackling; Rosa Parks global citizens globalization social impact. Healthcare pride, change movements disruption; democratizing the global financial system gender equality. Network natural resources, think tank elevate civic engagement.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">How to Secure Hosting Server and website ?</a></h4> </div>
-                                                    <div id="collapse3" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                            <p>Grantees dedicated; inspire social change; truth support engage. Global breakthrough insights readiness democracy crisis situation honesty amplify volunteer combat poverty indicator.</p>
-                                                            <p>Catalytic effect hack agriculture many voices aid challenges. Rural; social good minority humanitarian relief vulnerable citizens. Country, action 501(c)(3) collaborative cities carbon emissions reductions; affordable health care social analysis detection agenda Kony 2012 inclusive fight against malnutrition. Campaign Ford Foundation respond billionaire philanthropy, compassion economic development legal aid medical supplies advocate fighting poverty stakeholders technology Action Against Hunger. </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Who do I get in touch with if I need help ?</a></h4> </div>
-                                                    <div id="collapse4" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                            <p>Metrics immunize tackling courageous opportunity safeguards dignity Cesar Chavez peace recognition free-speech measures innovate. Complexity, fellows NGO, livelihoods, initiative. Criteria employment country The Elders, global leaders; care social entrepreneurship; inclusive capitalism gender.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse5">What is web hosting and WHMCS?</a></h4> </div>
-                                                    <div id="collapse5" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                            <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse6">What is a control panel?</a></h4> </div>
-                                                    <div id="collapse6" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse7">What are the charges if I exceed my bandwidth? </a></h4> </div>
-                                                    <div id="collapse7" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                            <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse8">How can I Get Refund after 30 Days ? </a></h4> </div>
-                                                    <div id="collapse8" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                            <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse9">How can I see my web site's Error logs and Raw Access logs?</a></h4> </div>
-                                                    <div id="collapse9" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                            <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of FAQ -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Shared Hosting Tabs -->
-
-
-    
     <!-- Counter Area Start -->
-    <section class="counter section_sapce cover-image" data-image-src="images/subbanners/counter-bg.jpg">
+    <section class="counter section_sapce cover-image" data-image-src="{{ asset('images/image3.png') }}">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-3 margin-top-30">
