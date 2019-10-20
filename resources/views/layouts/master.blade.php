@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TheOptimal - Creative Responsive HTML & WHMCS Professional Clean Latest Web Hosting Trending Template</title>
+    <title>@yield('title', 'Propulsion Knowledge')</title>
     <link rel="shortcut icon" href="images/icons/favicon.png" />
 
     <!-- Google Fonts -->

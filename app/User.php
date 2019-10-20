@@ -36,4 +36,17 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+//Model event to save the admin on the first sign up
+    protected static function boot()
+    {
+        parent::boot();
+        User::saving(function ($model) {
+            if(!User::where("role","=", "admin")->exists())
+            {
+                $model->role = 'admin';
+            } 
+
+        });
+    }
 }

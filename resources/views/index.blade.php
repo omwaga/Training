@@ -117,94 +117,57 @@
     </section>
     <!-- End of Partners -->
 
-    <!--Extra Info -->
-    <section class="section_sapce bg_gray">
-        <div class="container">
-            <div class="section-title  margin-b50">
-                <h2><span>We offer</span>What's Free offer</h2>
+        <!-- Pricing Tables -->
+    <section class="servers-table section_sapce">
+        <div class="row">
+            <div class="section-title margin-b50">
+                <h2><span>Full Managed</span>Dedicated Hosting Price</h2>
             </div>
-
-            <div class="row main-head">
-                <div class="col-md-12 margin-b50">
-                    <p>The scope of web hosting services varies greatly. The most basic is web page and small-scale file hosting, where files can be uploaded via File Transfer Protocol or a Web interface. The files are usually delivered to the Web "as is" or with minimal processing. Personal web site hosting is typically free, advertisement-sponsored, or inexpensive is typically free, advertisement-sponsored, or inexpensive. </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <div class="margin-b30">
-                        <div class="col-sm-12">
-                            <div class="left_icons">
-                                <div class="single_box_left">
-                                    <i class="feature-icon">
-                                        <i class="fa fa-shield fa-2x text_primary"></i>
-                                    </i>
-                                </div>
-                                <div class="single_box_right">
-                                    <h3>Full Stack</h3> As a Full-Stack web developer, you will be an integral part of an organization’s business operations. From frontend to backend development you will work with JavaScript, HTML5, CSS3, Python, and everything in between. Due to their popularity in the developer workspace, JavaScript and Python will be the languages taught for the frontend and backend of the course.  </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="margin-b30">
-                        <div class="col-sm-12">
-                            <div class="left_icons">
-                                <div class="single_box_left">
-                                    <i class="feature-icon">
-                                        <i class="fa fa-paper-plane fa-2x text_primary"></i>
-                                     </i>
-                                </div>
-                                <div class="single_box_right">
-                                    <h3>Data Science</h3> Data Science has become a popular occupation with Harvard Business Review dubbing it “The Sexiest Job of the 21st Century” and McKinsey & Company projecting a global demand of 1.5 million new data scientists. This track teaches you the knowledge and skills necessary to conduct sophisticated and systematic data analysis using the industry’s most adopted programming paradigms, the R and Python languages. </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="margin-b30">
-                        <div class="col-sm-12">
-                            <div class="left_icons">
-                                <div class="single_box_left">
-                                    <i class="feature-icon">
-                                        <i class="fa fa-globe fa-2x text_primary"></i>
-                                    </i>
-                                </div>
-                                <div class="single_box_right">
-                                    <h3>Tailor Made Trainings</h3> Switzerland’s only tailor-made tech program for your employees. Create a custom program that advances your company’s skillset and helps your managers translate the tech jargon. </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-
-                    <div class="margin-b30">
-                        <div class="col-sm-12">
-                            <div class="left_icons">
-                                <div class="single_box_left">
-                                    <i class="feature-icon">
-                                        <i class="fa fa-gears fa-2x text_primary"></i>
-                                    </i>
-                                </div>
-                                <div class="single_box_right">
-                                    <h3>Big Data</h3> Making good use of the immense volume of data enterprises generate is one of the key success drivers in both high-tech and traditional industries. Big Data Engineers are indispensable in designing, building, and maintaining the future hardware and software architectures needed for that. In this track you will learn the fundamental computer science concepts behind the most successful distributed framework for big data - Hadoop. You will also provision and configure your own Hadoop cluster in the cloud.  </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12">
-                    <div class="pop-video-container margin-t30">
-                        <!--Youtube Video Link-->
-                        <a class="autoplay" href="https://www.youtube.com/watch?v=RSbOZUfiGqg"><i class="fa fa-play fa-3x" aria-hidden="true"></i></a>
-
-                        <!--Vimeo Video Link-->
-                        <!--<a class="autoplay" href="https://vimeo.com/35044232"><i class="fa fa-play fa-3x" aria-hidden="true"></i></a>-->
-                        <img src="images/play-video.png" alt="" class="macbook">
-                     </div>
+            <div class="container">
+                <div class="col-sm-12">
+                    <table class="products-table responsive tablesaw tablesaw-stack" data-tablesaw-mode="stack">
+                        <thead>
+                            <tr>
+                                <th>CODE</th>
+                                <th>Title</th>
+                                <th>Date</th>
+                                <th>Venue</th>
+                                <th>Fees</th>
+                                <th>ORDER</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dual</td>
+                                <td>1×1.2GHzn Dedicated Hosting Price</td>
+                                <td>3GB</td>
+                                <td>1×300 GB 6.1K</td>
+                                <td>12TB</td>
+                                <td><a class="btn btn-block btn-new" href="">CONFIGURE</a> </td>
+                            </tr>
+                            <tr>
+                                <td> Intel</td>
+                                <td>3×1.24GHz Dedicated Hosting Price</td>
+                                <td>8GB</td>
+                                <td>3x2TB 6.1K</td>
+                                <td>$123/mo</td>
+                                <td><a class="btn btn-block btn-new" href="">CONFIGURE</a> </td>
+                            </tr>
+                            <tr>
+                                <td> Intel</td>
+                                <td>4.0GHz v</td>
+                                <td>24GB</td>
+                                <td>3x2TB 6.1K</td>
+                                <td>$132/mo</td>
+                                <td><a class="btn btn-block btn-new" href="">CONFIGURE</a> </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </section>
-    <!--End of Extra Info -->
+    <!-- End of Pricing Tables -->
 
 
 
