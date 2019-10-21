@@ -24,6 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+      abort_if(auth()->user()->role == 'admin', 403);
         $countries = Country::all();
         return view('home', compact('countries'));
     }

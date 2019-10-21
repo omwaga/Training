@@ -121,7 +121,7 @@
     <section class="servers-table section_sapce">
         <div class="row">
             <div class="section-title margin-b50">
-                <h2><span>Full Managed</span>Dedicated Hosting Price</h2>
+                <h2><span>Full Managed</span>Most Trending Courses</h2>
             </div>
             <div class="container">
                 <div class="col-sm-12">
@@ -172,16 +172,16 @@
 
 
     <!--APPS Downloads -->
-    <section class="section_sapce bg_dark section-parallax parallax cover-image apps-download" data-image-src="{{ asset('images/image3.png') }}">
+    <section class="section_sapce bg_dark section-parallax parallax cover-image apps-download" data-image-src="{{ asset('images/image4.png') }}">
         <div class="container ">
             <div class="row">
                 <div class="section-title  margin-b50">
-                    <h2><span>Avilable Appstore</span>Download App</h2>
+                    <h2><span>Available for Downloads</span>Download our Calendar</h2>
                 </div>
                 <div class="text-center relative">
-                    <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-apple "></i> App Store</a>
-                    <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-android"></i> Google play</a>
-                    <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-windows"></i> Windows</a>
+                    <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-calendar "></i> 2019 Calendar</a>
+                    <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-calendar"></i> 2020 Calendar</a>
+                    <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-calendar"></i> 2021 Calendar </a>
                 </div>
             </div>
         </div>
@@ -194,9 +194,9 @@
             <div class="row">
                 <div class="col-sm-6 col-md-3 margin-top-30">
                     <!-- Counter Item Start -->
-                    <i class="fa fa-cloud fa-3x text_white square-border-icon"></i>
+                    <i class="fa fa-superpowers fa-3x text_white square-border-icon"></i>
                     <div class="counter-holder margin-top-15">
-                        <p class="counter-text  text_white">cloud servers sold</p>
+                        <p class="counter-text  text_white">Courses Online</p>
                         <div class="counter-number  text_white">587</div>
                     </div>
                     <!-- Counter Item End -->
@@ -205,9 +205,9 @@
 
                 <div class="col-sm-6 col-md-3 margin-top-30">
                     <!-- Counter Item Start -->
-                    <i class="fa fa-sitemap fa-3x text_white square-border-icon"></i>
+                    <i class="fa fa-calendar fa-3x text_white square-border-icon"></i>
                     <div class="counter-holder margin-top-15">
-                        <p class="counter-text text_white">Shared Hosting sold</p>
+                        <p class="counter-text text_white">Training Days</p>
                         <div class="counter-number text_white">1.8412</div>
                     </div>
                     <!-- Counter Item End -->
@@ -215,9 +215,9 @@
 
                 <div class="col-sm-6 col-md-3 margin-top-30">
                     <!-- Counter Item Start -->
-                    <i class="fa fa-server fa-3x text_white square-border-icon"></i>
+                    <i class="fa fa-address-book fa-3x text_white square-border-icon"></i>
                     <div class="counter-holder margin-top-15">
-                        <p class="counter-text text_white">Dedicated Servers Sold</p>
+                        <p class="counter-text text_white">Delegates</p>
                         <div class="counter-number text_white">1,300</div>
                     </div>
                     <!-- Counter Item End -->
@@ -269,7 +269,7 @@
     <!--  End of Subscribe -->
 
     <!--  Footer -->
-    <footer class="footer">
+    <footer class="footer" style="background: rgb(00,00,00);">
         <div class="row section_sapce3 main-footer">
             <div class="container">
                 <div class="col-sm-2">
