@@ -1,12 +1,16 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Country;
 
 use Illuminate\Http\Request;
 
-class CoursesController extends Controller
+class CustomersDashboardController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware(['auth', 'verified']);
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +18,7 @@ class CoursesController extends Controller
      */
     public function index()
     {
-        return view('admin.courses.index');
+        return view('customers.index');
     }
 
     /**
@@ -24,8 +28,7 @@ class CoursesController extends Controller
      */
     public function create()
     {
-        $countries = Country::all();
-        return view('admin.courses.create', compact('countries'));
+        //
     }
 
     /**
@@ -36,16 +39,7 @@ class CoursesController extends Controller
      */
     public function store(Request $request)
     {
-        $attributes = request()->validate([
-            'title' => ['required', 'min:3'],
-            'venue' => 'required',
-            'fees' => ['required', 'min:3'],
-            'duration' => ['required', 'min:3'],
-            'start_date' => ['required', 'min:3'],
-            'description' => ['required', 'min:3']
-        ]);
-
-        dd($attributes);
+        //
     }
 
     /**
