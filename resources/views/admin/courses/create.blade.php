@@ -43,11 +43,20 @@
 											</div>
 
 											<div class="form-group">
-												<label for="exampleFormControlSelect1">Select Venue</label>
-												<select class="form-control"  name="venue" id="exampleFormControlSelect1">
+												<label for="exampleFormControlSelect1">Select Country</label>
+												<select class="form-control"  name="country_id" id="exampleFormControlSelect1">
 													@foreach($countries as $country)
 													<option value="{{$country->id}}">{{$country->name}}</option>
 													@endforeach
+												</select>
+											</div>
+											<div class="form-group">
+												<label for="exampleFormControlSelect1">Select Venue</label>
+												<select class="form-control"  name="venue" id="exampleFormControlSelect1">
+													<option value="Town">Nairobi</option>
+													<option value="Town">Nairobi</option>
+													<option value="Town">Nairobi</option>
+													<option value="Town">Nairobi</option>
 												</select>
 											</div>
 											<div class="form-group">
@@ -58,18 +67,23 @@
 												<label for="smallInput">Duration</label>
 												<input name="duration" type="text" class="form-control form-control-sm" id="smallInput" placeholder="Duration" required="">
 											</div>
-											<div class="form-group">
-												<label for="smallInput">Start Date</label>
-												<input name="start_date" type="text" class="form-control form-control-sm" id="smallInput" placeholder="Start Date" required="">
-											</div>
 										</div>
 										<div class="col-md-8 col-lg-8">
 											
 											<div class="form-group">
+												<label for="smallInput">Start Date</label>
+												<input name="start_date" type="text" class="form-control form-control-sm" id="smallInput" placeholder="Start Date" required="">
+											</div>
+											<div class="form-group">
 												<label for="comment">Description</label>
-												<textarea name="description" class="form-control" id="comment" rows="5" required=""> 
-
-												</textarea>
+												<textarea name="description" id="summernote"></textarea>
+    <script>
+      $('#summernote').summernote({
+        placeholder: 'Hello stand alone ui',
+        tabsize: 2,
+        height: 300
+      });
+    </script>
 											</div>
 										</div>
 									</div>

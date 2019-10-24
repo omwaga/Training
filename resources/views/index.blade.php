@@ -128,39 +128,23 @@
                     <table class="products-table responsive tablesaw tablesaw-stack" data-tablesaw-mode="stack">
                         <thead>
                             <tr>
-                                <th>CODE</th>
                                 <th>Title</th>
-                                <th>Date</th>
                                 <th>Venue</th>
+                                <th>Duration</th>
                                 <th>Fees</th>
                                 <th>ORDER</th>
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach($courses as $course)
                             <tr>
-                                <td>Dual</td>
-                                <td>1×1.2GHzn Dedicated Hosting Price</td>
-                                <td>3GB</td>
-                                <td>1×300 GB 6.1K</td>
-                                <td>12TB</td>
-                                <td><a class="btn btn-block btn-new" href="">CONFIGURE</a> </td>
+                                <td>{{$course->title}}</td>
+                                <td>{{$course->venue}}</td>
+                                <td>{{$course->duration}}</td>
+                                <td>{{$course->fee}}</td>
+                                <td><a class="btn btn-block btn-new" href="">APPLY</a> </td>
                             </tr>
-                            <tr>
-                                <td> Intel</td>
-                                <td>3×1.24GHz Dedicated Hosting Price</td>
-                                <td>8GB</td>
-                                <td>3x2TB 6.1K</td>
-                                <td>$123/mo</td>
-                                <td><a class="btn btn-block btn-new" href="">CONFIGURE</a> </td>
-                            </tr>
-                            <tr>
-                                <td> Intel</td>
-                                <td>4.0GHz v</td>
-                                <td>24GB</td>
-                                <td>3x2TB 6.1K</td>
-                                <td>$132/mo</td>
-                                <td><a class="btn btn-block btn-new" href="">CONFIGURE</a> </td>
-                            </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>

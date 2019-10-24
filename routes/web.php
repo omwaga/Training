@@ -11,16 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+
+Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/admin', 'AdminController@index')->name('admin');
 Route::get('/dashboard', 'CustomersDashboardController@index');
 
 Auth::routes(['verify' => true]);
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('courses', 'CoursesController');
 Route::resource('applications', 'ApplicationsController');

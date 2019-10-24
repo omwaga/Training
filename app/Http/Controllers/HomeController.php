@@ -3,20 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Country;
+use App\Course;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware(['auth', 'verified']);
-    }
-
     /**
      * Show the application dashboard.
      *
@@ -24,8 +14,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-      abort_if(auth()->user()->role == 'admin', 403);
-        $countries = Country::all();
-        return view('home', compact('countries'));
+      // abort_if(auth()->user()->role == 'admin', 403);
+      //   $countries = Country::all();
+        $courses = Course::all();
+        return view('index', compact('courses'));
     }
 }

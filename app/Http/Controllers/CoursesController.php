@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Country;
+use App\Course;
 
 use Illuminate\Http\Request;
 
@@ -14,7 +15,8 @@ class CoursesController extends Controller
      */
     public function index()
     {
-        return view('admin.courses.index');
+        $courses = Course::all();
+        return view('admin.courses.index', compact('courses'));
     }
 
     /**
@@ -42,10 +44,13 @@ class CoursesController extends Controller
             'fees' => ['required', 'min:3'],
             'duration' => ['required', 'min:3'],
             'start_date' => ['required', 'min:3'],
-            'description' => ['required', 'min:3']
+            'description' => ['required', 'min:3'],
+            'country_id' => 'required'
         ]);
 
-        dd($attributes);
+        Course::create($attributes);
+
+        return back()->with('status', 'Course created!');
     }
 
     /**
