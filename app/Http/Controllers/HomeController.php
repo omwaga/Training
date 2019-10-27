@@ -19,4 +19,24 @@ class HomeController extends Controller
         $courses = Course::all();
         return view('index', compact('courses'));
     }
+
+    public function profile()
+    {
+        return view('customers.personal');
+    }
+
+    public function professional()
+    {
+        return view('customers.professional');
+    }
+
+    public function career()
+    {
+        return view('customers.career');
+    }
+
+    public function others()
+    {
+        return view('customers.others');
+    }
 }

@@ -23,3 +23,8 @@ Route::resource('courses', 'CoursesController');
 Route::resource('applications', 'ApplicationsController');
 Route::resource('customers', 'CustomersController');
 
+Route::get('/profile', 'HomeController@profile')->name('profile');
+Route::get('/professional', 'HomeController@professional')->name('professional');
+Route::get('/career', 'HomeController@career')->name('career');
+Route::get('/others', 'HomeController@others')->name('others');
+

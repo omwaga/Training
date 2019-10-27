@@ -34,7 +34,7 @@ class RegisterController extends Controller
         if (auth()->user()->role == 'admin') {
             return '/admin';
         }
-        return '/home';
+        return '/';
     }
 
     /**

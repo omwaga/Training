@@ -334,27 +334,7 @@
 								</ul>
 							</div>
 						</li>
-						<li class="nav-item">
-							<a data-toggle="collapse" href="#sidebarLayouts">
-								<i class="fas fa-th-list"></i>
-								<p>Applications</p>
-								<span class="caret"></span>
-							</a>
-							<div class="collapse" id="sidebarLayouts">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="/applications/create">
-											<span class="sub-item">New Application</span>
-										</a>
-									</li>
-									<li>
-										<a href="/applications">
-											<span class="sub-item">All Applications</span>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</li>
+						
 						<li class="nav-item">
 							<a data-toggle="collapse" href="#forms">
 								<i class="fas fa-pen-square"></i>
@@ -371,6 +351,27 @@
 									<li>
 										<a href="/customers">
 											<span class="sub-item">All Customers</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#sidebarLayouts">
+								<i class="fas fa-th-list"></i>
+								<p>Applications</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="sidebarLayouts">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="/applications/create">
+											<span class="sub-item">New Application</span>
+										</a>
+									</li>
+									<li>
+										<a href="/applications">
+											<span class="sub-item">All Applications</span>
 										</a>
 									</li>
 								</ul>

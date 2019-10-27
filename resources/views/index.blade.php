@@ -1,127 +1,184 @@
 @extends('layouts.master')
 @section('content')
     @include('layouts.menubar')
+
     <!-- Slider -->
     <div class="slidercontainer">
         <div id="mainslider" class="owl-carousel">
-
-            <div class="item">
-                <div class="row full-width no-gutter section_sapce bg_primary cover-image2" data-image-src="{{ asset('images/image1.jpeg') }}">
-                    <div class="container">
-                        <div class="col-sm-12 col-md-6 radius">
-                            <div class="thequote">
-                                <h5 class="text_light">Full Stack Programs</h5>
-                                <p class="text_light">Our web hosting services will rock your world. All servers are SSD-powered.</p>
-                                <a href="#" class="btn btn-lg btn-new">Buy Now</a>
-                            </div>
-                        </div>
+            <div class="item no-before">
+                <div class="slidecaption">
+                    <h2>Full Stack Programs</h2>
+                    <h4>Get your Business Online  Easy way</h4>
+                    <p><a class="btn btn-slide" href="#">See the Features</a> </p>
+                </div> <img src="{{ asset('images/image3.png') }}" alt="" /> </div>
+            <div class="item no-before">
+                <div class="slidecaption">
+                    <h2>Data Science. </h2>
+                    <h4>Just Resell, Just Support, Get More Money</h4>
+                    <p><a class="btn btn-slide" href="#">Learn More</a> </p>
+                </div> <img src="{{ asset('images/image3.png') }}" alt="" /> </div>
+            <div class="item no-before">
+                <div class="slidecaption">
+                    <h2>Machine Learning.</h2>
+                    <h4>Secure, Trusted, Money Back, Full Support</h4>
+                    <p><a class="btn btn-slide" href="#">More Info</a> </p>
+                </div> <img src="{{ asset('images/image3.png') }}" alt="" /> </div>
+            <div class="item no-before">
+                <div class="slidecaption">
+                    <h2>Artificial Intelligence</h2>
+                    <h4>99.99% Uptime SuperMicro Blade Servers</h4>
+                    <p><a class="btn btn-slide" href="#">Order Now</a> </p>
+                </div> <img src="{{ asset('images/image3.png') }}" alt="" /> </div>
+        </div>
+        <div class="row bg_gray">
+            <div class="container">
+                <div class="col-sm-12">
+                    <div id="mainslider-nav" class="owl-carousel">
+                        <div class="item"><i class="fa fa-rocket"></i>
+                            <h5>Full Stack Programs</h5>
+                            <h6>Starting from $299</h6></div>
+                        <div class="item"><i class="fa fa-line-chart"></i>
+                            <h5>Data Science</h5>
+                            <h6>Starting from $299</h6></div>
+                        <div class="item"><i class="fa fa-cloud"></i>
+                            <h5>Machine Learning</h5>
+                            <h6>Starting from $299</h6></div>
+                        <div class="item"><i class="fa fa-tasks"></i>
+                            <h5>Artificial Intelligence</h5>
+                            <h6>Starting from $299</h6></div>
                     </div>
                 </div>
             </div>
-
-            <div class="item">
-                <div class="row full-width no-gutter section_sapce bg_primary cover-image2" data-image-src="{{ asset('images/image2.jpg') }}">
-                    <div class="container">
-                        <div class="col-sm-12 col-md-6 radius">
-                            <div class="thequote">
-                                <h5 class="text_light">Data Science</h5>
-                                <p class="text_light">Our web hosting services will rock your world. All servers are SSD-powered.</p>
-                                <a href="#" class="btn btn-lg btn-new">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="row full-width no-gutter section_sapce bg_primary cover-image2" data-image-src="{{ asset('images/image3.png') }}">
-                    <div class="container">
-                        <div class="col-sm-12 col-md-6 radius">
-                            <div class="thequote">
-                                <h5 class="text_light">Big Data</h5>
-                                <p class="text_light">Our web hosting services will rock your world. All servers are SSD-powered.</p>
-                                <a href="#" class="btn btn-lg btn-new">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="row full-width no-gutter section_sapce bg_primary cover-image2" data-image-src="{{ asset('images/image4.png') }}">
-                    <div class="container">
-                        <div class="col-sm-12 col-md-6 radius">
-                            <div class="thequote">
-                                <h5 class="text_light">Artificial Intelligence</h5>
-                                <p class="text_light">Our web hosting services will rock your world. All servers are SSD-powered.</p>
-                                <a href="#" class="btn btn-lg btn-new">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
     <!-- End of Slider -->
 
-    <!--  Features -->
-    <section class="section_sapce">
-        <div class="row">
-                <div class="section-title margin-b30">
-                    <h2><span>Welcome to TheHosting</span> Why Choose TheHosting ?</h2>
-                </div>
+    <!-- Shared Hosting Tabs -->
+    <section class="shared-features section_sapce section_gray">
+        <div class="section-title margin-b50">
+            <h2>Trending Courses</h2>
         </div>
-        <div class="row">
-            <div class="container">
-                <div class="col-lg-4 margin-t30">
-                    <div class="text-center">
-                        <i class="fa fa-percent fa-3x text_primary square-border-icon"></i>
-                        <h3>Interactive Engagement Training</h3>
-                         <p>We create an environment for participants to challenge, question, learn and grow through engaging interactive courses.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 margin-t30">
-                    <div class="text-center">
-                        <i class="fa fa-phone fa-3x text_primary square-border-icon"></i>
-                        <h3>Wide Range of Training Subjects</h3>
-                         <p>We have an unrivalled selection of courses from leadership, management and business, into more specialist and technical areas of expertise.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 margin-t30">
-                    <div class="text-center">
-                        <i class="fa fa-check fa-3x text_primary square-border-icon"></i>
-                        <h3>Internationaly Certified Instructors</h3>
-                         <p>We have one of the largest and most extensive portfolio of highly qualified, experienced experts, chosen as being the best in their professional field.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Features -->
-
-      <!-- Partners -->
-    <section class="partners section_sapce3 bg_gray">
         <div class="row">
             <div class="container">
                 <div class="col-sm-12">
-                    <div id="datacenter-partners">
-                        <div class="item"><img src="images/clients/1.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/2.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/3.png" alt=""> </div>
-                        <div class="item"><img src="images/clients/4.png" alt=""> </div>
+                    <div id="shared-hosting-features-tabs">
+                        <ul>
+                            <li><a href="#feature2"> <i class="fa fa-globe" aria-hidden="true"></i>All Categories</a></li>
+                            <li><a href="#feature1"><i class="fa fa-mouse-pointer" aria-hidden="true"></i>  Full Stack</a> </li>
+                            <li><a href="#feature3"><i class="fa fa-cog" aria-hidden="true"></i>Data Science</a> </li>
+                            <li><a href="#feature4"><i class="fa fa-question-circle" aria-hidden="true"></i>Artificial Intelligence</a> </li>
+                        </ul>
+
+                        <!-- 1st tab  -->
+                        <div id="feature2">
+                            <div class="tabfeatures">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                    <div class="boxes boxes-border-top margin-top-30 clearfix">
+                        <div class="col-sm-12">
+                            <h2>Omnis Natus</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error doloremque laudantium.</p>
+                            <a href="#" class="btn btn-new btn-lg">Purchease now</a>
+                         </div>
+                        <!-- end boxes -->
+                     </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="boxes boxes-border-top margin-top-30 clearfix">
+                        <div class="col-sm-12">
+                            <h2>Omnis Natus</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error doloremque laudantium.</p>
+                            <a href="#" class="btn btn-new btn-lg">Purchease now</a>
+                         </div>
+                        <!-- end boxes -->
+                     </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="boxes boxes-border-top margin-top-30 clearfix">
+                        <div class="col-sm-12">
+                            <h2>Omnis Natus</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error doloremque laudantium.</p>
+                            <a href="#" class="btn btn-new btn-lg">Purchease now</a>
+                         </div>
+                        <!-- end boxes -->
+                     </div>
+                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2nd tab  -->
+                        <div id="feature1">
+                            <div class="tabfeatures">
+                                <div class="row">
+                                        <div class="col-sm-3">
+                    <div class="boxes border-dotted-2 margin-top-30 clearfix relative">
+                        <div class="ribbon ribbon-small text-white">
+                            <div class="ribbon-content bg_dark text-uppercase text_white">NEW</div>
+                        </div>
+                        <div class="col-sm-12">
+                            <h2>Sit voluptatem accusantium doloremque</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p> <a href="#" class="btn btn-new btn-lg">Purchease now</a>
+                        </div>
+                    </div>
+                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3rd tab  -->
+                        <div id="feature3">
+                            <div class="tabfeatures">
+                                <div class="row">
+                                        <div class="col-sm-3">
+                    <div class="boxes border-dashed-2 margin-top-30 clearfix relative">
+                        <div class="ribbon ribbon-small text-white">
+                            <div class="ribbon-content bg_yellow text-uppercase ">50% OFFER</div>
+                        </div>
+                        <div class="col-sm-12">
+                            <h2>Sit voluptatem accusantium doloremque</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p> <a href="#" class="btn btn-new btn-lg">Purchease now</a>
+                         </div>
+                    </div>
+                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4th tab  -->
+                        <div id="feature4">
+                            <div class="tabfeatures">
+                                <div class="row faq">
+                                                 <div class="col-sm-3">
+                    <div class="boxes border-dotted margin-top-30 clearfix relative">
+                        <div class="ribbon ribbon-small text-white">
+                            <div class="ribbon-content bg-primary text-uppercase text_white">NEW</div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <h2>Neque Porro Quisquam Est Magnam Aliquam Dolorem</h2>
+                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                            </div>
+                            <div class="row">
+                                <a href="#" class="btn btn-lg btn-new pull-right  margin-top-15">Purchease now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End of Partners -->
 
         <!-- Pricing Tables -->
-    <section class="servers-table section_sapce">
+    <div class="servers-table section_sapce">
         <div class="row">
             <div class="section-title margin-b50">
-                <h2><span>Full Managed</span>Most Trending Courses</h2>
+                <h2>Recent Additions</h2>
             </div>
             <div class="container">
                 <div class="col-sm-12">
@@ -141,7 +198,7 @@
                                 <td>{{$course->title}}</td>
                                 <td>{{$course->venue}}</td>
                                 <td>{{$course->duration}}</td>
-                                <td>{{$course->fee}}</td>
+                                <td>{{$course->fees}}</td>
                                 <td><a class="btn btn-block btn-new" href="">APPLY</a> </td>
                             </tr>
                             @endforeach
@@ -150,30 +207,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- End of Pricing Tables -->
-
-
-
-    <!--APPS Downloads -->
-    <section class="section_sapce bg_dark section-parallax parallax cover-image apps-download" data-image-src="{{ asset('images/image4.png') }}">
-        <div class="container ">
-            <div class="row">
-                <div class="section-title  margin-b50">
-                    <h2><span>Available for Downloads</span>Download our Calendar</h2>
-                </div>
-                <div class="text-center relative">
-                    <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-calendar "></i> 2019 Calendar</a>
-                    <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-calendar"></i> 2020 Calendar</a>
-                    <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-calendar"></i> 2021 Calendar </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End of APPS Downloads -->
-
     <!-- Counter Area Start -->
-    <section class="counter section_sapce cover-image" data-image-src="{{ asset('images/image3.png') }}">
+    <section class="section_sapce bg_primary cover-image2" data-image-src="{{ asset('images/image3.png') }}">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-3 margin-top-30">
@@ -220,13 +257,21 @@
         </div>
     </section>
     <!-- Counter Area End -->
-    
-    
-    <!--  Subscribe -->
-    <div class="subscribe section_sapce4 bg_dark">
-        <div class="row">
+
+    <!--  Footer -->
+    <footer class="footer section_sapce4 error bg_dark ">
+        <div class="row section_sapce3 main-footer">
             <div class="container">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-3">
+                    <h4 class="text_white">Choose.</h4>
+                    <ul>
+                        <li class="text_white"> <a href="" class="text_white">Shared Hosting</a> </li>
+                        <li class="text_white"> <a href="" class="text_white">Reseller Hosting</a> </li>
+                        <li class="text_white"> <a href="" class="text_white">Cloud Managed VPS</a> </li>
+                        <li class="text_white"> <a href="" class="text_white">Managed Dedicated Servers</a> </li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
                     <div id="mc_embed_signup">
                         <form class="form-inline validate" action="//sreethemes.us9.list-manage.com/subscribe/post?u=f86de306ae229d9cca9373ff6&id=44e7c219bf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                             <div class="row no-gutter">
@@ -242,103 +287,20 @@
                             </div>
                         </form>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
+                     <div class="col-sm-12 col-md-6">
                     <h3>Newsletter</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing  industry.</p>
                 </div>
             </div>
-        </div>
-    </div>
-    <!--  End of Subscribe -->
-
-    <!--  Footer -->
-    <footer class="footer" style="background: rgb(00,00,00);">
-        <div class="row section_sapce3 main-footer">
-            <div class="container">
-                <div class="col-sm-2">
-                    <h4>Choose.</h4>
+            <div class="col-sm-3">
+                    <h4 class="text_white">Choose.</h4>
                     <ul>
-                        <li> <a href="">Shared Hosting</a> </li>
-                        <li> <a href="">Reseller Hosting</a> </li>
-                        <li> <a href="">Cloud Managed VPS</a> </li>
-                        <li> <a href="">Managed Dedicated Servers</a> </li>
+                        <li class="text_white"> <a href="" class="text_white">Shared Hosting</a> </li>
+                        <li class="text_white"> <a href="" class="text_white">Reseller Hosting</a> </li>
+                        <li class="text_white"> <a href="" class="text_white">Cloud Managed VPS</a> </li>
+                        <li class="text_white"> <a href="" class="text_white">Managed Dedicated Servers</a> </li>
                   </ul>
                 </div>
-                <div class="col-sm-2">
-                    <h4>Get Support.</h4>
-                    <ul>
-                        <li> <a href="">Contact Us</a> </li>
-                        <li> <a href="">Knowledge Base</a> </li>
-                        <li> <a href="">Submit a Ticket</a> </li>
-                        <li> <a href="">Email</a> </li>
-                  </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h4>Start.</h4>
-                    <ul>
-                        <li> <a href="">WordPress Hosting</a> </li>
-                        <li> <a href="">Joomla Hosting</a> </li>
-                        <li> <a href="">Magento Hosting</a> </li>
-                        <li> <a href="">Drupal Hosting</a> </li>
-                  </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li> <a href="">Webmail</a> </li>
-                        <li> <a href="">WHOIS Search</a> </li>
-                        <li> <a href="">ICANN Confirmation</a> </li>
-                        <li> <a href="">Site Map</a> </li>
-                  </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h4>Shopping</h4>
-                    <ul>
-                        <li> <a href="">Product Catalog</a> </li>
-                        <li> <a href="">Find a Domain</a> </li>
-                        <li> <a href="">Reseller Programs</a> </li>
-                        <li> <a href="">Create Account</a> </li>
-                  </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h4>About Us</h4>
-                    <ul>
-                        <li> <a href="">About TheOptimal</a> </li>
-                        <li> <a href="">Privacy Policy</a> </li>
-                        <li> <a href="">Terms</a> </li>
-                        <li> <a href="">Awards</a> </li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row bg_white copyright">
-            <div class="container">
-                <div class=" padding-t30 clearfix">
-                    <div class="col-sm-6">
-                        <h4>Follow us</h4>
-                        <div class="social-links">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 text-right">
-                         <h4>Payment Modes</h4>
-                        <ul class="list-inline payment-icons">
-                          <li><i class="fa fa-cc-mastercard fa-3x"></i></li>
-                          <li><i class="fa fa-cc-visa fa-3x"></i></li>
-                          <li><i class="fa fa-cc-amex fa-3x"></i></li>
-                          <li><i class="fa fa-cc-discover fa-3x"></i></li>
-                          <li><i class="fa fa-cc-paypal fa-3x"></i></li>
-                          <li><i class="fa fa-google-wallet fa-3x"></i></li>
-                      </ul>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <p class="copyright text-center">Copyright © 2017 - 2018 TheOptimal. All Rights Reserved</p>
         </div>
     </footer>
     <!--  End of Footer -->

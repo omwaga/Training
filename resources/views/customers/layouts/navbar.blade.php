@@ -69,42 +69,6 @@
 													<span class="time">5 minutes ago</span> 
 												</div>
 											</a>
-											<a href="#">
-												<div class="notif-img"> 
-													<img src="../assets/img/chadengle.jpg" alt="Img Profile">
-												</div>
-												<div class="notif-content">
-													<span class="subject">Chad</span>
-													<span class="block">
-														Ok, Thanks !
-													</span>
-													<span class="time">12 minutes ago</span> 
-												</div>
-											</a>
-											<a href="#">
-												<div class="notif-img"> 
-													<img src="../assets/img/mlane.jpg" alt="Img Profile">
-												</div>
-												<div class="notif-content">
-													<span class="subject">Jhon Doe</span>
-													<span class="block">
-														Ready for the meeting today...
-													</span>
-													<span class="time">12 minutes ago</span> 
-												</div>
-											</a>
-											<a href="#">
-												<div class="notif-img"> 
-													<img src="../assets/img/talha.jpg" alt="Img Profile">
-												</div>
-												<div class="notif-content">
-													<span class="subject">Talha</span>
-													<span class="block">
-														Hi, Apa Kabar ?
-													</span>
-													<span class="time">17 minutes ago</span> 
-												</div>
-											</a>
 										</div>
 									</div>
 								</li>
@@ -172,59 +136,6 @@
 							</ul>
 						</li>
 						<li class="nav-item dropdown hidden-caret">
-							<a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
-								<i class="fas fa-layer-group"></i>
-							</a>
-							<div class="dropdown-menu quick-actions quick-actions-info animated fadeIn">
-								<div class="quick-actions-header">
-									<span class="title mb-1">Quick Actions</span>
-									<span class="subtitle op-8">Shortcuts</span>
-								</div>
-								<div class="quick-actions-scroll scrollbar-outer">
-									<div class="quick-actions-items">
-										<div class="row m-0">
-											<a class="col-6 col-md-4 p-0" href="#">
-												<div class="quick-actions-item">
-													<i class="flaticon-file-1"></i>
-													<span class="text">Generated Report</span>
-												</div>
-											</a>
-											<a class="col-6 col-md-4 p-0" href="#">
-												<div class="quick-actions-item">
-													<i class="flaticon-database"></i>
-													<span class="text">Create New Database</span>
-												</div>
-											</a>
-											<a class="col-6 col-md-4 p-0" href="#">
-												<div class="quick-actions-item">
-													<i class="flaticon-pen"></i>
-													<span class="text">Create New Post</span>
-												</div>
-											</a>
-											<a class="col-6 col-md-4 p-0" href="#">
-												<div class="quick-actions-item">
-													<i class="flaticon-interface-1"></i>
-													<span class="text">Create New Task</span>
-												</div>
-											</a>
-											<a class="col-6 col-md-4 p-0" href="#">
-												<div class="quick-actions-item">
-													<i class="flaticon-list"></i>
-													<span class="text">Completed Tasks</span>
-												</div>
-											</a>
-											<a class="col-6 col-md-4 p-0" href="#">
-												<div class="quick-actions-item">
-													<i class="flaticon-file"></i>
-													<span class="text">Create New Invoice</span>
-												</div>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="nav-item dropdown hidden-caret">
 							<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
 								<div class="avatar-sm">
 									<img src="../assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
@@ -271,114 +182,31 @@
 		<div class="sidebar sidebar-style-2">			
 			<div class="sidebar-wrapper scrollbar scrollbar-inner">
 				<div class="sidebar-content">
-					<div class="user">
-						<div class="avatar-sm float-left mr-2">
-							<img src="../assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
-						</div>
-						<div class="info">
-							<a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
-								<span>
-									{{ Auth::user()->name}}
-									<span class="user-level">{{ Auth::user()->role}}</span>
-									<span class="caret"></span>
-								</span>
-							</a>
-							<div class="clearfix"></div>
-
-							<div class="collapse in" id="collapseExample">
-								<ul class="nav">
-									<li>
-										<a href="#profile">
-											<span class="link-collapse">My Profile</span>
-										</a>
-									</li>
-									<li>
-										<a href="#edit">
-											<span class="link-collapse">Edit Profile</span>
-										</a>
-									</li>
-									<li>
-										<a href="#settings">
-											<span class="link-collapse">Settings</span>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
 					<ul class="nav nav-primary">
-						<li class="nav-item active">
-							<a data-toggle="collapse" href="#dashboard" class="collapsed" aria-expanded="false">
-								<i class="fas fa-home"></i>
-								<p>Dashboard</p>
-							</a>
-						</li>
 						<li class="nav-item">
-							<a data-toggle="collapse" href="#base">
+							<a href="{{route('profile')}}">
 								<i class="fas fa-layer-group"></i>
-								<p>Training Courses</p>
-								<span class="caret"></span>
+								<p>Personal Details</p>
 							</a>
-							<div class="collapse" id="base">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="/courses/create">
-											<span class="sub-item">New Course</span>
-										</a>
-									</li>
-									<li>
-										<a href="/courses">
-											<span class="sub-item">All Courses</span>
-										</a>
-									</li>
-								</ul>
-							</div>
 						</li>
 						<li class="nav-item">
-							<a data-toggle="collapse" href="#sidebarLayouts">
+							<a href="{{route('professional')}}">
 								<i class="fas fa-th-list"></i>
-								<p>Applications</p>
-								<span class="caret"></span>
+								<p>Professional Details</p>
 							</a>
-							<div class="collapse" id="sidebarLayouts">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="/applications/create">
-											<span class="sub-item">New Application</span>
-										</a>
-									</li>
-									<li>
-										<a href="/applications">
-											<span class="sub-item">All Applications</span>
-										</a>
-									</li>
-								</ul>
-							</div>
 						</li>
 						<li class="nav-item">
-							<a data-toggle="collapse" href="#forms">
+							<a href="{{route('career')}}">
 								<i class="fas fa-pen-square"></i>
-								<p>Customers</p>
-								<span class="caret"></span>
+								<p>Career Interests</p>
 							</a>
-							<div class="collapse" id="forms">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="/customers/create">
-											<span class="sub-item">New Customer</span>
-										</a>
-									</li>
-									<li>
-										<a href="/customers">
-											<span class="sub-item">All Customers</span>
-										</a>
-									</li>
-								</ul>
-							</div>
 						</li>
-	
-						<li class="mx-4 mt-2">
-							<a href="#" class="btn btn-primary btn-block"><span class="btn-label mr-2"> <i class="fa fa-heart"></i> </span>Buy Pro</a> 
+
+						<li class="nav-item">
+							<a href="{{route('others')}}">
+								<i class="fas fa-pen-square"></i>
+								<p>Other Details</p>
+							</a>
 						</li>
 					</ul>
 				</div>
