@@ -1,56 +1,40 @@
 @extends('customers.layouts.master')
 @section('content')
-@include('customers.layouts.navbar')
+@include('customers.layouts.profile')
 
 		<div class="main-panel">
 			<div class="content">
 							<div class="card">
 								<div class="card-header">
-									<div class="card-title">Personal Details</div>
+									<div class="card-title">Professional Details</div>
 								</div>
 								<form method="POST" action="/courses">
 									@csrf
 								<div class="card-body">
 									<div class="row">
-										<div class="col-md-6 col-lg-4">
+										<div class="col-md-6 col-lg-6">
 											<div class="form-group">
-												<label for="smallInput">Course Title:</label>
+												<label for="smallInput">Company Name:</label>
 												<input name="title" type="text" class="form-control form-control-sm" id="smallInput" placeholder="Course Title" required="">
 											</div>
 											<div class="form-group">
-												<label for="exampleFormControlSelect1">Select Venue</label>
-												<select class="form-control"  name="venue" id="exampleFormControlSelect1">
-													<option value="Town">Nairobi</option>
-													<option value="Town">Nairobi</option>
-													<option value="Town">Nairobi</option>
-													<option value="Town">Nairobi</option>
-												</select>
-											</div>
-											<div class="form-group">
-												<label for="smallInput">Training Fees</label>
+												<label for="smallInput">Current Industry</label>
 												<input name="fees" type="text" class="form-control form-control-sm" id="smallInput" placeholder="Fees" required="">
 											</div>
 											<div class="form-group">
-												<label for="smallInput">Duration</label>
+												<label for="smallInput">Skills</label>
 												<input name="duration" type="text" class="form-control form-control-sm" id="smallInput" placeholder="Duration" required="">
 											</div>
 										</div>
-										<div class="col-md-8 col-lg-8">
+										<div class="col-md-6 col-lg-6">
 											
 											<div class="form-group">
-												<label for="smallInput">Start Date</label>
+												<label for="smallInput">Your Current Job Leve</label>
 												<input name="start_date" type="text" class="form-control form-control-sm" id="smallInput" placeholder="Start Date" required="">
 											</div>
 											<div class="form-group">
 												<label for="comment">Description</label>
 												<textarea name="description" id="summernote"></textarea>
-    <script>
-      $('#summernote').summernote({
-        placeholder: 'Hello stand alone ui',
-        tabsize: 2,
-        height: 300
-      });
-    </script>
 											</div>
 										</div>
 									</div>

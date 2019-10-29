@@ -184,28 +184,28 @@
 				<div class="sidebar-content">
 					<ul class="nav nav-primary">
 						<li class="nav-item">
-							<a href="{{route('orders')}}">
+							<a href="{{route('profile')}}">
 								<i class="fas fa-layer-group"></i>
-								<p>My Orders</p>
+								<p>Personal Details</p>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="{{route('activitystream')}}">
+							<a href="{{route('professional')}}">
 								<i class="fas fa-th-list"></i>
-								<p>Activity Stream</p>
+								<p>Professional Details</p>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="{{route('wallet')}}">
+							<a href="{{route('career')}}">
 								<i class="fas fa-pen-square"></i>
-								<p>My Wallet</p>
+								<p>Career Interests</p>
 							</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="{{route('wishlist')}}">
+							<a href="{{route('others')}}">
 								<i class="fas fa-pen-square"></i>
-								<p>My Wishlist</p>
+								<p>Other Details</p>
 							</a>
 						</li>
 					</ul>

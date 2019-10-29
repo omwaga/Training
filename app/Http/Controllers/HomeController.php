@@ -22,21 +22,21 @@ class HomeController extends Controller
 
     public function profile()
     {
-        return view('customers.personal');
+        return view('customers.profile.personal');
     }
 
     public function professional()
     {
-        return view('customers.professional');
+        return view('customers.profile.professional');
     }
 
     public function career()
     {
-        return view('customers.career');
+        return view('customers.profile.career');
     }
 
     public function others()
     {
-        return view('customers.others');
+        return view('customers.profile.others');
     }
 }

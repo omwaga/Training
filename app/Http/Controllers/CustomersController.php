@@ -81,4 +81,24 @@ class CustomersController extends Controller
     {
         //
     }
+
+    public function orders()
+    {
+        return view('customers.orders');
+    }
+
+    public function activitystream()
+    {
+        return view('customers.activitystream');
+    }
+
+    public function wallet()
+    {
+        return view('customers.wallet');
+    }
+
+    public function wishlist()
+    {
+        return view('customers.wishlist');
+    }
 }

@@ -1,12 +1,12 @@
 @extends('customers.layouts.master')
 @section('content')
-@include('customers.layouts.navbar')
+@include('customers.layouts.profile')
 
 		<div class="main-panel">
 			<div class="content">
 							<div class="card">
 								<div class="card-header">
-									<div class="card-title">Career Interests</div>
+									<div class="card-title">Other Details</div>
 								</div>
 								<form method="POST" action="/courses">
 									@csrf

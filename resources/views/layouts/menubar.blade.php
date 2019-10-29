@@ -122,11 +122,10 @@
                         <li> <a href="#"><i aria-hidden="true" class="fa fa-user"></i> {{ Auth::user()->name }}  <span class="caret"></span> </a>
                             <ul>
                                 <li> <a href="{{route('profile')}}">My Profile</a> </li>
-                                <li> <a href="#">My Oders</a> </li>
-                                <li> <a href="#">Activity Stream</a> </li>
-                                <li> <a href="#">My Wallet</a> </li>
-                                <li> <a href="#">My Wishlist</a> </li>
-                                <li> <a href="#">Change Password</a> </li>
+                                <li> <a href="{{route('orders')}}">My Oders</a> </li>
+                                <li> <a href="{{route('activitystream')}}">Activity Stream</a> </li>
+                                <li> <a href="{{route('wallet')}}">My Wallet</a> </li>
+                                <li> <a href="{{route('wishlist')}}">My Wishlist</a> </li>
                                 <li> 
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();

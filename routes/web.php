@@ -15,7 +15,6 @@
 Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/admin', 'AdminController@index')->name('admin');
-Route::get('/dashboard', 'CustomersDashboardController@index');
 
 Auth::routes(['verify' => true]);
 
@@ -28,3 +27,7 @@ Route::get('/professional', 'HomeController@professional')->name('professional')
 Route::get('/career', 'HomeController@career')->name('career');
 Route::get('/others', 'HomeController@others')->name('others');
 
+Route::get('/orders', 'CustomersController@orders')->name('orders');
+Route::get('/activitystream', 'CustomersController@activitystream')->name('activitystream');
+Route::get('/wallet', 'CustomersController@wallet')->name('wallet');
+Route::get('/wishlist', 'CustomersController@wishlist')->name('wishlist');
